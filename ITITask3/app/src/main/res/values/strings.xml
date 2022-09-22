@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ITI Task3</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="message">Message</string>
+    <string name="close">Close</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_a_message">Enter a Message</string>
+    <string name="next">next</string>
+    <string name="write_shred_pref">Wreite</string>
+    <string name="write_shared_pref">write</string>
+    <string name="read_shared_pref">read</string>
+</resources>
