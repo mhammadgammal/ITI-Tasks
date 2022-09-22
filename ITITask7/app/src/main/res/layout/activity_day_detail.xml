@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayDetailActivity">
+
+    <ImageView
+        android:id="@+id/day_image_img"
+        android:layout_width="163dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="52dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/number_one"
+        android:contentDescription="@string/day_image" />
+
+    <TextView
+        android:id="@+id/day_desc_text_view"
+        style="@style/description_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_image_img"
+        app:layout_constraintVertical_bias="0.366"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/day_txt_view"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_image_img"
+        app:layout_constraintVertical_bias="0.206"
+        tools:text="TextView" />
+
+    <ImageView
+        android:id="@+id/next_day_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/day_image_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/day_image_img"
+        app:layout_constraintTop_toTopOf="@+id/day_image_img"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_arrow_right"
+        android:contentDescription="@string/next_day_image_button" />
+
+    <ImageView
+        android:id="@+id/previous_day_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/day_image_img"
+        app:layout_constraintEnd_toStartOf="@+id/day_image_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day_image_img"
+        app:srcCompat="@drawable/ic_arrow_left"
+        android:contentDescription="@string/previous_day_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

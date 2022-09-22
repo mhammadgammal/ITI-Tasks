@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITI Task 7</string>
+    <string name="description">description</string>
+    <string name="day_image">day Image</string>
+    <string name="next_day_image_button">next day image button</string>
+    <string name="previous_day_button">previous day button</string>
+</resources>
